@@ -1,4 +1,7 @@
 <?php
+session_start();
+include('functions.php');
+check_session_id();
 
 // 送信データのチェック
 // var_dump($_POST);

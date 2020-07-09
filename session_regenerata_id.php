@@ -6,5 +6,7 @@ $old_session_id = session_id();
 session_regenerate_id(true);
 $new_session_id = session_id();
 
-echo '<p>旧id' . o
+echo '<p>旧id' . $old_session_id .'</p>';
+echo '<p>新id' . $old_session_id .'</p>';
+?>
 

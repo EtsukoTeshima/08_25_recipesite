@@ -4,23 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>todoリストログイン画面</title>
+  <title>ユーザ登録画面</title>
 </head>
 
 <body>
-  <form action="todo_login_act.php" method="POST">
+  <form action="recipe_register_act.php" method="POST">
     <fieldset>
-      <legend>todoリストログイン画面</legend>
+      <legend>管理栄養士登録画面</legend>
       <div>
         username: <input type="text" name="username">
       </div>
-      <div> 
+      <div>
         password: <input type="text" name="password">
       </div>
       <div>
-        <button>Login</button>
+        <button>登録</button>
       </div>
-      <a href="todo_register.php">or register</a>
+      <a href="recipe_login.php">or ログイン</a>
     </fieldset>
   </form>
 

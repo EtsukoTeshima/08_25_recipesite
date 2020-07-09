@@ -11,5 +11,5 @@ if (isset($_COOKIE[session_name()])) {
 // サーバ側での、セッションIDの破棄
 session_destroy();
 // 処理後、index.phpへリダイレクト
-header('Location:todo_login.php');
+header('Location:recipe_login.php');
 exit();
